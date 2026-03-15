@@ -255,6 +255,24 @@ Stage 1 uses Maven to build the JAR. Stage 2 copies only the JAR into a slim JRE
 
 ---
 
+## LLD
+ ### Flow 1 — User Registration
+<img width="1416" height="1174" alt="Image" src="https://github.com/user-attachments/assets/86891889-211e-4c21-b08a-ceee04d4f9d4" />
+
+
+### Flow 2 — Login & JWT Validation (every protected request)
+<img width="1354" height="1200" alt="Image" src="https://github.com/user-attachments/assets/c6adfb67-3a72-4b16-b760-ba270ccd1c92" />
+
+### Flow 3 — Employer posts a job
+<img width="1636" height="1346" alt="Image" src="https://github.com/user-attachments/assets/47c00a1f-d187-4ca1-967d-416db5dbf3bd" />
+
+### Flow 4 — Jobseeker searches and applies
+<img width="1744" height="1324" alt="Image" src="https://github.com/user-attachments/assets/617af8b5-b8e6-4edb-96a5-5c222e7c782a" />
+---
+
+### Flow 5 — Employer reviews and updates application status
+<img width="1394" height="1320" alt="Image" src="https://github.com/user-attachments/assets/07fb2ca6-0ce5-45de-ac41-a8efd0795f32" />
+
 ## Running Tests
 ```bash
 # Run all tests

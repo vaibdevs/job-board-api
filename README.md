@@ -259,7 +259,7 @@ Stage 1 uses Maven to build the JAR. Stage 2 copies only the JAR into a slim JRE
   ### Table-3: Jobs
   <img width="606" height="1106" alt="Image" src="https://github.com/user-attachments/assets/13786e38-abae-42f5-98ae-5870bb70914d" />
   
-  ### Table-3: Applications
+  ### Table-4: Applications
   <img width="1224" height="1130" alt="Image" src="https://github.com/user-attachments/assets/377d9a6b-d93a-44b3-a89b-a9611e7b8cd1" />
 
   ### Full schema — all 4 tables together

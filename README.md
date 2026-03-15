@@ -249,6 +249,20 @@ Only loads related entities when explicitly accessed. Prevents accidental N+1 qu
 Stage 1 uses Maven to build the JAR. Stage 2 copies only the JAR into a slim JRE Alpine image. Final image is under 200 MB with no build tools included.
 
 ---
+## ERD: 
+  ### 1. Table-1: Users
+  <img width="970" height="840" alt="Image" src="https://github.com/user-attachments/assets/fc7d45fc-43eb-4761-b62b-fb722c7459aa" />
+
+  ### 2. Table-2: Comapnies
+  <img width="736" height="1120" alt="Image" src="https://github.com/user-attachments/assets/31dace75-ecb6-4339-ad3c-740c87ae3b13" />
+
+  ### 3. Table-3: Jobs
+  <img width="606" height="1106" alt="Image" src="https://github.com/user-attachments/assets/13786e38-abae-42f5-98ae-5870bb70914d" />
+  
+  ### 4. Table-3: Jobs
+  <img width="1224" height="1130" alt="Image" src="https://github.com/user-attachments/assets/377d9a6b-d93a-44b3-a89b-a9611e7b8cd1" />
+
+---
 
 ## HLD
 <img width="830" height="698" alt="Image" src="https://github.com/user-attachments/assets/52bd7ab1-3404-45ff-9375-66bbfb75d579" />
@@ -272,6 +286,11 @@ Stage 1 uses Maven to build the JAR. Stage 2 copies only the JAR into a slim JRE
 
 ### Flow 5 — Employer reviews and updates application status
 <img width="1394" height="1320" alt="Image" src="https://github.com/user-attachments/assets/07fb2ca6-0ce5-45de-ac41-a8efd0795f32" />
+
+### Full schema — all 4 tables together
+<img width="470" height="1510" alt="Image" src="https://github.com/user-attachments/assets/12abe7e7-4e06-4abb-a4c8-527efe52f8db" />
+
+---
 
 ## Running Tests
 ```bash

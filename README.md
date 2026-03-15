@@ -35,7 +35,7 @@ A REST API that connects employers and jobseekers. Built with Java 17 and Spring
 ### Run the project
 ```bash
 # Clone the repo
-git clone https://github.com/your-username/jobboard-api.git
+git clone https://github.com/vaibdevs/jobboard-api.git
 cd jobboard-api
 
 # Start the full stack (app + database)

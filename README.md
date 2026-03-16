@@ -291,6 +291,27 @@ mvn test jacoco:report
 
 ---
 
+## SET OF TASKS:
+### Task 1: Environment Setup
+
+### Task 2: Project Bootstrap
+
+### Task 3: Database Setup
+
+### Task 4: JPA Entities
+
+### Task 5: JWT Authentication
+
+### Task 6: Company & Job Endpoints
+
+### Task 7: Application Endpoints + File Upload
+
+### Task 8: Testing
+
+### Task 9: Docker + Docker Compose
+
+---
+
 ## License
 
 MIT License — free to use, modify, and distribute.

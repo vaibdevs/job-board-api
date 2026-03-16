@@ -203,21 +203,6 @@ src/
 
 ---
 
-## Database Schema
-```
-users               companies             jobs                  applications
-──────────────      ──────────────        ──────────────        ──────────────────────
-id          PK      id          PK        id          PK        id           PK
-email               owner_id    FK→users  company_id  FK→comp   job_id       FK→jobs
-password_hash       name                  title                 applicant_id FK→users
-role                description           description           status
-created_at          website               location              resume_url
-                    created_at            status                applied_at
-                                          posted_at             UNIQUE(job_id, applicant_id)
-```
-
----
-
 ## Security Model
 
 Every request passes through three layers:

@@ -234,6 +234,7 @@ Only loads related entities when explicitly accessed. Prevents accidental N+1 qu
 Stage 1 uses Maven to build the JAR. Stage 2 copies only the JAR into a slim JRE Alpine image. Final image is under 200 MB with no build tools included.
 
 ---
+
 ## ERD: 
   ### Table-1: Users
   <img width="970" height="840" alt="Image" src="https://github.com/user-attachments/assets/fc7d45fc-43eb-4761-b62b-fb722c7459aa" />

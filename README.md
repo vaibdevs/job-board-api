@@ -316,3 +316,5 @@ mvn test jacoco:report
 ## License
 
 MIT License — free to use, modify, and distribute.
+
+---

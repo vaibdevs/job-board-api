@@ -112,7 +112,6 @@ GET    /admin/stats                    ADMIN → platform statistics
 ```
 GET    /files/{filename}               Public → download uploaded resume PDF
 ```
-
 ---
 
 ## Example Requests

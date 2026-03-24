@@ -38,6 +38,7 @@ A REST API that connects employers and jobseekers. Built with Java 17 and Spring
 git clone https://github.com/vaibdevs/jobboard-api.git
 cd jobboard-api
 
+
 # Start the full stack (app + database)
 docker compose up --build
 ```

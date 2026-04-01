@@ -293,6 +293,7 @@ mvn test jacoco:report
 ---
 
 ## SET OF TASKS:
+
 ### Task 1: Environment Setup
 
 ### Task 2: Project Bootstrap

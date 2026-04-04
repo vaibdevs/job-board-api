@@ -1,0 +1,10 @@
+target/
+.idea/
+*.iml
+*.class
+*.jar
+*.log
+uploads/
+.env
+.DS_Store
+.claude/

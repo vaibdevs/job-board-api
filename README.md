@@ -28,7 +28,6 @@ A REST API that connects employers and jobseekers. Built with Java 17 and Spring
 ## Getting Started
 
 ### Prerequisites
-
 - Docker Desktop installed and running
 - That is it. Java and PostgreSQL do not need to be installed locally.
 

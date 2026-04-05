@@ -1,0 +1,20 @@
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/jobboard
+    username: postgres
+    password: secret
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    show-sql: true
+  flyway:
+    enabled: true
+  servlet:
+    multipart:
+      max-file-size: 2MB
+      max-request-size: 2MB
+
+app:
+  jwt-secret: your-256-bit-secret-key-change-this-in-production-make-it-long
+  jwt-expiry-ms: 86400000
+  upload-dir: ./uploads
